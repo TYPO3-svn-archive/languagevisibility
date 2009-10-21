@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'languagevisibility'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="sys_language.tx_languagevisibility_fallbackorder">fallback order</label>
+			<label index="sys_language.tx_languagevisibility_fallbackorderel">fallback order for other elements</label>
+			<label index="sys_language.tx_languagevisibility_fallbackorderttnewsel">fallback order for tt_news elements</label>
+			<label index="sys_language.tx_languagevisibility_defaultvisibility">default visibility for pages</label>
+			<label index="sys_language.tx_languagevisibility_defaultvisibilityel">default visibility for other elements</label>
+			<label index="sys_language.tx_languagevisibility_defaultvisibilityttnewsel">default visibility for tt_news elements</label>
+			<label index="sys_language.tx_languagevisibility_complexfallbacksetting">Use multiple fallbacks for Pages/Elements/TTNews</label>
+			
+			<!-- Field titles -->
+			<label index="pages.tx_languagevisibility_visibility">Language visibility:</label>
+			<label index="tt_content.tx_languagevisibility_visibility">Language visibility:</label>
+			
+			<!-- Field value labels -->
+			<label index="tx_languagevisibility_visibility.I.">empty</label>
+			<label index="tx_languagevisibility_visibility.I.yes">forced to YES</label>
+			<label index="tx_languagevisibility_visibility.I.no">forced to NO</label>
+			<label index="tx_languagevisibility_visibility.I.no+">forced to NO inherited</label>
+			<label index="tx_languagevisibility_visibility.I.f">if translation in fallback</label>
+			<label index="tx_languagevisibility_visibility.I.t">if translated</label>
+			
+			<label index="tabname">Language</label>
+			<label index="language">Language</label>
+			<label index="visibility">visibility setting</label>
+			<label index="hastranslation">translated</label>
+			<label index="isshown">visible</label>
+			<label index="default">-default-</label>
+			<label index="fallback">if a translation in fallback exists</label>
+			<label index="no">never</label>
+			<label index="yes">always</label>
+			<label index="translated">if translated</label>
+			<label index="visibility_in_default">visibility of default</label>
+			<label index="visibility_in_overlay">visibility of overlay</label>
+			<label index="moduleFunction.tx_languagevisibility_modfunc1">Language Visibility Overview</label>
+			<label index="be_groups.allow_movecutdelete_foroverlays">Allow move, copy, cut and delete for elements with overlays:</label>
+		</languageKey>
+	</data>
+</T3locallang>
